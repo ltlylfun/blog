@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://blog.ltlyl.fun/", // replace this with your deployed domain
   author: "ltlyl",
   profile: "",
-  desc: "这是ltlyl的blog网站，主要分享代码，游戏，动漫。",
+  desc: "这是ltlyl的blog网站，主要分享代码，偶尔分享日常，游戏，动漫。",
   title: "ltlyl",
   ogImage: "og.png",
   lightAndDarkMode: true,

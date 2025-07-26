@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "编辑网页",
-    url: "https://github.com/ltlylfun/blog",
+    url: "https://github.com/ltlylfun/blog/tree/main/",
   },
   dynamicOgImage: false,
   dir: "ltr", // "rtl" | "auto"

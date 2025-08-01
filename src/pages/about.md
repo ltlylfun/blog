@@ -29,4 +29,4 @@ title: "About"
 
 ```
 
-开源项目:[ResumeToJob](https://github.com/ltlylfun/ResumeToJob)，简历制作网站，网站访问可能需要梯子。
+开源项目: [ResumeToJob](https://github.com/ltlylfun/ResumeToJob) <img src="https://img.shields.io/github/stars/ltlylfun/ResumeToJob?style=social" style="display:inline-block;" /> <img src="https://img.shields.io/github/forks/ltlylfun/ResumeToJob?style=social" style="display:inline-block;" />，简历制作网站，网站访问可能需要梯子。

@@ -47,6 +47,8 @@ const vdom = {
 
 ## React 为什么不直接操作真实 DOM？
 
+> [尤雨溪 对于 Virtual DOM 的优势的回答](https://www.zhihu.com/question/31809713/answer/53544875)
+
 直接操作真实 DOM 有两个问题：
 
 ### a. 性能问题（频繁更新，导致重排和重绘）

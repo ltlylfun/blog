@@ -2,6 +2,7 @@
 title: ts类型学习小记
 pubDatetime: 2025-04-26T01:19:46.553Z
 featured: false
+draft: true
 tags:
   - ts
   - notes

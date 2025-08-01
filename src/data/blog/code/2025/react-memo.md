@@ -8,6 +8,21 @@ tags:
 description: React 的 diff 是“你写好文章后，编辑器比对前后差别，决定哪些句子要重写”，而 React.memo 是“看你用的资料有没有变，没变就直接复用上次写好的文章，连写都不写了”。
 ---
 
+> React.memo 是用在「组件级别」的优化，避免组件不必要的重新渲染。
+
+> useMemo 是用在「函数组件内部」的优化，避免某些计算在每次渲染时都重新执行，调用函数并缓存结果。
+
+> useCallback 是用在「函数组件内部」的优化，避免每次渲染都重新创建函数引用，缓存函数本身。
+
+> 如果你已经熟悉了 useMemo，你可能发现将 useCallback 视为以下内容会很有帮助：
+>
+> ```
+> // 在 React 内部的简化实现
+> function useCallback(fn, dependencies) {
+>  return useMemo(() => fn, dependencies);
+> }
+> ```
+
 ## Table of contents
 
 ## react memo 优化了什么，react 不是有 diff 算法吗

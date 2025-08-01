@@ -2,6 +2,7 @@
 title: css学习笔记
 pubDatetime: 2023-09-13T01:19:46.553Z
 featured: false
+draft: true
 tags:
   - css
   - notes
@@ -28,7 +29,7 @@ description: 样式学习笔记
 
 2.  常见相对单位
 
-- **em**：相对父元素字体大小（1em = 当前元素 font-size）
+- **em**：相对当前元素字体大小（1em = 当前元素 font-size）
 - **rem**：相对根元素（html）字体大小（1rem = html 的 font-size）
 - **%**：相对父元素的百分比
 - **vw**：视口宽度百分比（1vw = 1% 视口宽度）

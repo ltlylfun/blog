@@ -42,7 +42,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>这是ltlyl的blog网站</p>
+      <!-- <p>这是ltlyl的blog网站</p>
       <p class="mt-2">
         你可以查看
         <LinkButton
@@ -50,8 +50,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           href="https://github.com/ltlylfun/blog"
         >
           GitHub仓库
-        </LinkButton> 获得该网站的源代码。
-      </p>
+        </LinkButton>查看该网站的源代码。
+      </p> -->
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
@@ -69,7 +69,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       featuredPosts.length > 0 && (
         <>
           <section id="featured" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+            <h2 class="text-2xl font-semibold tracking-wide">精选帖子</h2>
             <ul>
               {featuredPosts.map(data => (
                 <Card variant="h3" {...data} />
@@ -84,7 +84,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">最近帖子</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -97,7 +97,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        所有帖子
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>

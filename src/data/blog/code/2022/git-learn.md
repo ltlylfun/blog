@@ -2,6 +2,7 @@
 title: git常用命令
 pubDatetime: 2022-12-20T01:19:46.553Z
 featured: false
+draft: true
 tags:
   - git
   - notes

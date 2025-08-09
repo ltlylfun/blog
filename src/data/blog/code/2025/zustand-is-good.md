@@ -2,6 +2,7 @@
 title: zustand-别因为它可爱就忽视它，它有爪子！
 pubDatetime: 2025-05-01T01:19:46.553Z
 featured: true
+draft: true
 tags:
   - react
   - zustand
@@ -71,7 +72,6 @@ Zustand 会追踪你用了哪些字段（这里是 `count`），**只在这些�
 2. 返回的 store 是一个 hook（如 `useCounterStore`）。
 3. 在组件中通过 `useStore((state) => state.xxx)` 读取和订阅状态。
 4. 不用再手动写 `Context Provider` 了。
-   很好，我们现在正式进入 **Zustand 的进阶用法**。
 
 ---
 

@@ -2,6 +2,7 @@
 title: js原型链
 pubDatetime: 2024-12-15T01:19:46.553Z
 featured: false
+draft: true
 tags:
   - js
 # ogImage: ../../assets/images/example.png # src/assets/images/example.png

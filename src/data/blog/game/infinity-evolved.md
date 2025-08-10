@@ -3,7 +3,7 @@ title: 无限进化版本
 pubDatetime: 2025-07-19T01:19:46.553Z
 featured: false
 tags:
-  - shadowverse
+  - 影之诗
 # ogImage: ../../assets/images/example.png # src/assets/images/example.png
 description: Infinity Evolved 是Shadowverse Worlds Beyond的第2弹卡包。将追加77张卡牌和3张可交换豪华道具的“兑换券”。此外还将追加2张可通过消费卡包点数获得的具有特殊动画效果的“珍藏卡”
 ---

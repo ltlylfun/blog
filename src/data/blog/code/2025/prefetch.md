@@ -3,7 +3,7 @@ title: 基于预取和预渲染的mpa网站优化
 pubDatetime: 2025-05-24T01:19:46.553Z
 featured: true
 tags:
-  - performance
+  - 优化
 # ogImage: ../../assets/images/example.png # src/assets/images/example.png
 description: 这周实习学习了mpa网站优化经验，今天整理一下笔记。对于老旧网站，又觉得没必要大升级的，用这个方法很好，记录一下。
 ---

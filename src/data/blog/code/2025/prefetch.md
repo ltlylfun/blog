@@ -1,7 +1,7 @@
 ---
 title: 基于预取和预渲染的mpa网站优化
 pubDatetime: 2025-05-24T01:19:46.553Z
-featured: true
+featured: false
 tags:
   - 优化
 # ogImage: ../../assets/images/example.png # src/assets/images/example.png
